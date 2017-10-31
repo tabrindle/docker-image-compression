@@ -8,6 +8,8 @@ Convert from PNG to:
 - [WebP](https://github.com/webmproject/libwebp)
 
 ## Usage
+Pull the image:
+`docker pull tabrindle/docker-image-compression`
 
 Build your container:
 Ex: `docker build . -t docker-image-compression`
