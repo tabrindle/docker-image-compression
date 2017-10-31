@@ -11,11 +11,8 @@ Convert from PNG to:
 Pull the image:
 `docker pull tabrindle/docker-image-compression`
 
-Build your container:
-Ex: `docker build . -t docker-image-compression`
-
 Run with mounted volumes, and a given file or directory
-Ex: `docker run -v $$(pwd):/tmp --rm docker-image-compression test/test.png`
+Ex: `docker run -v $(pwd):/tmp --rm tabrindle/docker-image-compression test/test.png`
 
 Will result in the following files:
 - test-guetzli.jpg
